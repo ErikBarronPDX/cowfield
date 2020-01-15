@@ -6,4 +6,11 @@ $(document).ready(function() {
   $("button#minusCow").click(function() {
     $("ul#cowPen").children("img").first().remove();
   })
+
+})
+
+$(window).load(function() {
+  $("img").click(function() {
+    alert("moo");
+  })
 })
